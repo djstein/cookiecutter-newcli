@@ -1,9 +1,10 @@
 {
     "project_slug": "project",
-    "name": "John Snow",
-    "email": "example@gmail.com",
-    "github_user": "example",
-    "github_repo": "https://github.com/{{cookiecutter.github_user}}/<example>",
+    "name": "Dylan Stein",
+    "email": "djstein@ncsu.edu",
+    "github_user": "djstein",
+    "github_repo":
+        "https://github.com/{{cookiecutter.github_user}}/{{cookiecutter.project_slug}}",
     "description": "",
     "license": "MIT"
 }
