@@ -4,7 +4,7 @@
     "email": "djstein@ncsu.edu",
     "github_user": "djstein",
     "github_repo":
-        "https://github.com/{{cookiecutter.github_user}}/{{cookiecutter.project_slug}}",
+        "https://github.com/{{cookiecutter.github_user}}/{{cookiecutter.project_slug}}.git",
     "description": "",
     "license": "MIT"
 }
