@@ -1,8 +1,9 @@
 {
-    "project_slug": "",
-    "github_repo": "",
-    "name": "",
-    "email": "",
-    "github_user": "",
-    "description": ""
+    "project_slug": "project",
+    "name": "John Snow",
+    "email": "example@gmail.com",
+    "github_user": "example",
+    "github_repo": "https://github.com/{{cookiecutter.github_user}}/<example>",
+    "description": "",
+    "license": "MIT"
 }
