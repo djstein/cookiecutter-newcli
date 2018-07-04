@@ -10,9 +10,9 @@ from setuptools import find_packages, setup, Command
 # Package meta-data.
 NAME = '{{cookiecutter.project_slug}}'
 DESCRIPTION = '{{cookiecutter.description}}'
-URL = '{{cookiecutter.github_repo}}'
+URL = 'https://github.com/{{cookiecutter.github_user}}/{{cookiecutter.project_slug}}'
 EMAIL = '{{cookiecutter.email}}'
-AUTHOR = '{{cookiecutter.name}}'
+AUTHOR = '{{cookiecutter.author_name}}'
 
 # What packages are required for this module to be executed?
 REQUIRED = [
