@@ -10,7 +10,7 @@ from setuptools import find_packages, setup, Command
 # Package meta-data.
 NAME = '{{cookiecutter.project_slug}}'
 DESCRIPTION = '{{cookiecutter.description}}'
-URL = 'https://github.com/{{cookiecutter.github_user}}/{{cookiecutter.project_slug}}'
+URL = 'https://github.com/{{cookiecutter.github_user}}/{{cookiecutter.github_repo}}'
 EMAIL = '{{cookiecutter.email}}'
 AUTHOR = '{{cookiecutter.author_name}}'
 

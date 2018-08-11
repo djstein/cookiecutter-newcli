@@ -1,11 +1,13 @@
 {
     "project_name": "New CLI",
     "project_slug":
-        "{{ cookiecutter.project_name.lower()|replace(' ', '-')|replace('_', '-') }}",
+        "{{ cookiecutter.project_name.lower()|replace(' ', '_')|replace('-', '_') }}",
     "description": "Python CLI Tool",
     "author_name": "Dylan Stein",
     "domain_name": "example.com",
     "github_user": "djstein",
+    "github_repo":
+        "{{ cookiecutter.project_name.lower()|replace(' ', '-')|replace('_', '-') }}",
     "email":
         "{{ cookiecutter.author_name.lower()|replace(' ', '-') }}@ncsu.edu",
     "open_source_license": [
